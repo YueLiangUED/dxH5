@@ -22,7 +22,7 @@ section .contentBox{
 }
 section .contentBox p{
     font-size: 1.3rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     color: #333333;
 }
 section .message{
