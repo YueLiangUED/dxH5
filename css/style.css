@@ -1,0 +1,95 @@
+header{
+    width: 32.9rem;
+    height: 46.8rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+section,footer{
+    width: 32.9rem;
+    background: url("../images/repeatBg.png") center repeat-y;
+    background-size: 100% .5rem;
+}
+section{
+    padding-bottom: 3rem;
+}
+section .contentBox{
+    box-sizing: border-box;
+    padding: 7.4rem 3rem 4.5rem 3.2rem;
+    width: 32.9rem;
+    height: 21.6rem;
+    background: url("../images/contentBg.png") center no-repeat;
+    background-size: cover;
+}
+section .contentBox p{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color: #333333;
+}
+section .message{
+    box-sizing: border-box;
+    padding: 0 2rem 0 3rem;
+}
+section .message p{
+    text-indent: -1rem;
+    text-align: justify;
+}
+section .message span:first-child{
+    display: block;
+    margin-left: -1.35rem;
+    margin-bottom: 1.4rem;
+    width: 6.6rem;
+    height: 2.1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    background-color: #f48972;
+}
+section .message i{
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #333333;
+}
+section .message span{
+    margin-left: .5rem;
+    font-size: 1.1rem;
+    color: #333333;
+}
+section .button{
+    margin: 2.5rem auto 0;
+    width: 17.7rem;
+    height: 4.05rem;
+    background: url("../images/button.png") center no-repeat;
+    background-size: cover;
+}
+footer{
+    padding-bottom: 2.5rem;
+}
+footer div{
+    margin: 0 auto;
+    padding: 1.05rem 0 1.5rem;
+    width: 26.4rem;
+    border: 2px dashed #f48972;
+}
+footer div p{
+    width: 26.4rem;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2.4rem;
+    color: #333333;
+    background-color: #f48972;
+}
+footer div ul{
+    padding-top: 1.2rem;
+}
+footer div ul li{
+    float: left;
+    width: 13.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #333333;
+}
